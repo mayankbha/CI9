@@ -1,0 +1,8 @@
+.new_box { position: relative; width:225px; clear:left; margin:10px 0; }
+div.new_box_with_drpdwn { width:227px; max-width:227px; z-index:600; }
+.tzSelectType { display: inline-block; float: left; z-index: 600; position:relative; height:37px; width: 100%; }
+.tzSelectType .selectBoxType { color: #fff; cursor: pointer; height: 100%; line-height: 33px; padding-left: 8px; position: absolute; background: url("../images/sortarrow.png") no-repeat scroll 75px 13px transparent; width:83px; }
+#type_dd_list { padding: 3px 0 0; position: absolute; top: 31px; width: 100%; border-bottom-left-radius:7px; border-bottom-right-radius:7px; overflow:hidden; left:0px; margin:0; }
+.tzSelectType li { cursor: pointer; }
+#type_dd_list > li { float: none; height: auto; line-height: normal; list-style: none outside none; margin: 0; padding: 5px 10px 5px; background:none repeat scroll 0 0 #808385; }
+#type_dd_list > li:last-child { padding-bottom:10px; border-bottom-left-radius: 7px; border-bottom-right-radius: 7px; }

@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Large desktop */
+@media (min-width: 1200px){
+#footer{
+	height:46px !important;
+	line-height:46px !important;
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+	font-size:13px !important;
+}
+#home-middle-cont #home-bottom h3{
+	font-size:23px !important;
+}
+#home-middle-cont #home-bottom img{
+	width:62px !important;
+}
+}	/* End Large desktop */
+ 
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px){
+	#resources-list ul li{
+	display:block;
+	float:none;
+	width:100%;
+}
+
+#resources-list ul li.odd{
+	margin-left:0;
+}
+	#footer{
+	height:auto;
+	padding-top:10px;
+	padding-bottom:10px;
+	line-height:24px;
+	font-size:11px;
+}
+#home-middle-cont{
+	margin-top:0;
+}
+#home-middle-cont #home-bottom h3{
+	font-size:15px;
+}
+#home-middle-cont #home-bottom img{
+	width:35px;
+}
+#home-signin h2, #socialmedai-accounts h2{
+	font-size:20px;
+}
+#home-middle-cont h2{
+	margin-top:30px;
+}
+}	/* End Portrait tablet to landscape and desktop */
+ 
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px){
+	
+	#resources-list ul li{
+	display:block;
+	float:none;
+	width:100%;
+}
+
+#resources-list ul li.odd{
+	margin-left:0;
+}
+
+.filter-cont .search-filter, .filter-cont h2.pull-left{
+	float:none;
+}
+
+.company-info{
+	width:100%;
+	float:none;
+}
+#logged-info, #logged-info form{
+	float:none;
+}
+#page-body, #footer, #home-main-cont, #home-middle-cont{
+	padding-left:20px;
+	padding-right:20px;
+}
+#home-main-cont #tag-line{
+	font-size:20px;
+	margin-left:-20px;
+	margin-right:-20px;
+}
+#footer{
+	height:auto;
+	padding-top:10px;
+	padding-bottom:10px;
+	line-height:24px;
+	font-size:11px;
+}
+#footer .text-right{
+	text-align:left;
+}
+#footer .span3{
+	clear:both;
+}
+#home-main-cont{
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#socialmedai-accounts{
+	padding-top:20px;
+}
+#socialmedai-accounts h2{
+	padding-top:0;
+}
+#home-middle-cont{
+	margin-top:0;
+}
+#home-signin h2{
+	padding-top:20px;
+}
+#home-middle-cont h2{
+	margin-top:30px;
+}
+}	/* End Landscape phone to portrait tablet */
+ 
+ 
+/* Landscape phones and down */
+@media (max-width: 480px){
+#home-middle-cont #home-bottom h3{
+	font-size:18px;
+}
+#social-media{
+	float:left;
+	margin:10px 0 5px 7px;
+	padding-left:0;
+	background:0 none;
+}
+#home-main-cont #tag-line{
+	font-size:16px;
+}
+}	/* End Landscape phones and down */
+
+@media (min-width: 980px) {
+#footer{
+	height:auto;
+	padding-top:10px;
+	padding-bottom:10px;
+	line-height:24px;
+	font-size:10px;
+}
+#home-main-cont{
+	min-height:500px;
+}
+#home-middle-cont #home-bottom h3{
+	font-size:18px;
+}
+#home-middle-cont #home-bottom img{
+	width:50px;
+}
+}

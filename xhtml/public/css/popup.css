@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+#popover-wrapper {
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:url(../images/popup-cont.png) repeat;
+}
+#popover {
+	position:relative;
+	max-width:570px;
+	margin:50px auto 0 auto;
+}
+#popover-head {
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+	background:#5d6164;
+	padding:8px 15px 8px 10px;
+}
+#popover-head .span3 {
+	margin-left:0 !important;
+}
+#popover-head .close-pp {
+	position:absolute;
+	top:25px;
+	right:18px;
+}
+#popover-head .close-pp a {
+	color:#acb9bf;
+	font-size:14px;
+	text-shadow:0 1px 0 rgba(0, 0, 0, 0.7);
+}
+#popover-head .confirm-fb, #popover-head .confirm-tweet {
+	background:url(../images/confirm-fb.png) no-repeat scroll left top;
+	width:26px;
+	height:23px;
+	position:absolute;
+	top:44px;
+	right:50px;
+}
+#popover-head .confirm-tweet {
+	background:url(../images/confirm-tweet.png) no-repeat scroll left top;
+}
+#popover-body {
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	background:#fafafa url(../images/popoverbody.gif) repeat-x scroll left top;
+	padding:0 15px 15px;
+}
+.confirm-mascot {
+	background:url(../images/happy-face.png) no-repeat scroll center 4px;
+	height:115px;
+}
+.signup-confirmmsg {
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	line-height:22px;
+	color:#3a434e;
+	padding:10px 0;
+}
+/******************************************************************** yeasir css form ******************************************************************/
+.popover-heading {
+	padding:18px 0 10px;
+	border-bottom:#d5dfee 1px solid;
+}
+.popover-heading h3 {
+	font-size:20px;
+	margin:0;
+	font-weight:bold;
+	color:#1e5c85;
+	line-height:34px;
+}
+.share-form {
+	padding:18px 0 0;
+	margin:0;
+}
+.share-form .share-detail {
+	float:left;
+	width:78%;
+}
+.share-detail textarea.input_field {
+	height:82px;
+	font-size:14px;
+	font-weight:bold;
+	color:#66778a;
+	padding-top:5px;
+}
+.share-form .img_brdr {
+	margin-right:10px;
+}
+.share-desc {
+	padding:12px 0 15px 112px;
+}
+.share-desc h4 {
+	margin:0;
+	color:#1e5c85;
+	font-size:18px;
+	font-weight:bold;
+}
+.share-desc p {
+	line-height:20px;
+	font-size:14px;
+	color:#3a434e;
+	padding:5px 0 0 0;
+}
+.share-form .submit-form {
+	text-align:right;
+	border-top:#d5dfee 1px solid;
+	padding:10px 0 0;
+}
+.locknmbr {
+	display:inline-block;
+	line-height:35px;
+	margin-right:15px;
+}
+.locknmbr a {
+	margin-right:8px;
+}
+.share-form .share_dtl_twt {
+	width:100%;
+	position:relative;
+	float:none;
+	padding-bottom:18px;
+}
+.share_dtl_twt textarea.input_field {
+	height:110px;
+	padding-top:28px;
+}
+.share_dtl_twt a {
+	position:absolute;
+	left:14px;
+	top:10px;
+	color:#66778a;
+	text-decoration:underline;
+}
+.share-form .share_dtl_link {
+	padding:3px 0 8px;
+	width:100%;
+	float:none;
+}
+.fb_mascont {
+	background: url(../images/fb_mascot.jpg) no-repeat scroll center 4px transparent;
+}
+.twt_mascont {
+	background: url(../images/twt_mascot.jpg) no-repeat scroll center 4px transparent;
+}
+.linkin_mascont {
+	background: url(../images/linkin_mascot.jpg) no-repeat scroll center 4px transparent;
+}
+
+/******************************************************************** yeasir css form ******************************************************************/

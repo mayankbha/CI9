@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome to Our Site!</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="css/my_style.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+
+<!-- HTML5 shim for IE backwards compatibility -->
+
+<!--[if lt IE 9]>
+
+
+
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+
+
+<![endif]-->
+
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="header">
+    <div class="container">
+      <div class="row">
+        <div class="span4">
+          <div id="logo"><a href="#"><img src="images/logo.png" alt="Meow Startup"></a></div>
+        </div>
+        <div id="admin-area">Administrator Area <a href="#">Logout</a></div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- end header --> 
+  
+  <!-- Navbar -->
+  
+  <div class="navbar navbar-inverse">
+    <div class="navbar-inner">
+      <div class="container">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog Controls</a>
+              <ul class="dropdown-menu">
+                <li class=""><a href="#">Categories</a></li>
+                <li class=""><a href="#">Posts</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Content Controls</a>
+              <ul class="dropdown-menu">
+                <li class=""><a href="#">Page Content and META Data</a></li>
+                <li class=""><a href="#">Outbound Email</a></li>
+                <li class=""><a href="#">Broadcast Emails</a></li>
+                <li class=""><a href="#">Auto Emails</a></li>
+              </ul>
+            </li>
+            <li class="active dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">User Administration</a>
+              <ul class="dropdown-menu">
+                <li class=""><a href="#">Admin Users</a></li>
+                <li class=""><a href="#">Public Users</a></li>
+                <li class="active"><a href="#">Contacts</a></li>
+                <li class=""><a href="#">Analytics</a></li>
+                <li class=""><a href="#">Lessons Feedback</a></li>
+                <li class=""><a href="#">Points Controller</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Learning</a>
+              <ul class="dropdown-menu">
+                <li class=""><a href="#">Resources</a></li>
+                <li class=""><a href="#">Learning</a></li>
+                <li class=""><a href="#">Surveys</a></li>
+                <li class=""><a href="#">Lessons Categories Controller</a></li>
+                <li class=""><a href="#">Recommendation Controller</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- End Navbar -->
+  
+  <div id="page-body">
+    <div class="container">
+      <h2>Admin View Contact Detail</h2>
+      <div class="content" style="min-height: inherit;">
+        <div class="add-form contact-view" style="width: 94%;">
+          <form class="form-horizontal log-form">
+            <div class="control-group">
+              <label class="control-label">Date:</label>
+              <div class="controls">
+                <p>05-23-2013</p>
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">From:</label>
+              <div class="controls">
+                <p>lorem@ipsum.com</p>
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">Message:</label>
+              <div class="controls">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label">Questions/Info:</label>
+              <div class="controls">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere eu sem a pharetra. Maecenas condimentum posuere eleifend. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam erat volutpat. Phasellus placerat neque sit amet interdum tincidunt. Morbi dapibus ullamcorper metus vel semper. Nullam magna orci, lacinia ut ultricies id, consectetur sed sapien. Aliquam placerat massa at odio vulputate rhoncus. Mauris tincidunt consectetur lectus, vel ornare dui rhoncus ut. Mauris malesuada leo in laoreet hendrerit. Aenean convallis, nisi ac eleifend posuere, erat eros scelerisque felis, ac adipiscing arcu nibh eget neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst. Donec imperdiet turpis nec libero consequat eleifend. In lobortis pharetra tortor, quis iaculis lectus dictum quis.</p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="controls"> <span class="text-center" style="display: block;">
+                <button type="submit" class="btn btn-primary">Reply</button>
+                <button type="submit" class="btn btn-primary">Remove</button>
+                <button type="submit" class="btn btn-primary">Cancel</button>
+                </span> </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <h2>Admin View Contact History</h2>
+      <div class="tabular_cont">
+        <table>
+          <tr>
+            <th><a href="#">First Name</a></th>
+            <th class="hidden-phone"><a href="#">Last Name</a></th>
+            <th><a href="#">Email</a></th>
+            <th class="hidden-phone"><a href="#">Date</a></th>
+            <th>Actions</th>
+          </tr>
+          <tr>
+            <td>Lorem</td>
+            <td class="hidden-phone">Ipsumt</td>
+            <td>lorem@ipsum.com</td>
+            <td class="hidden-phone">06-25-2013</td>
+            <td class="action"><a href="#"><img src="images/reply.png" alt="Reply" title="Reply"></a> <a href="#"><img src="images/delete_icon.png" alt="Delete" title="Delete" /></a></td>
+          </tr>
+          <tr>
+            <td>Lorem</td>
+            <td class="hidden-phone">Ipsumt</td>
+            <td>lorem@ipsum.com</td>
+            <td class="hidden-phone">06-25-2013</td>
+            <td class="action"><a href="#"><img src="images/reply.png" alt="Reply" title="Reply"></a> <a href="#"><img src="images/delete_icon.png" alt="Delete" title="Delete" /></a></td>
+          </tr>
+          <tr>
+            <td>Lorem</td>
+            <td class="hidden-phone">Ipsumt</td>
+            <td>lorem@ipsum.com</td>
+            <td class="hidden-phone">06-25-2013</td>
+            <td class="action"><a href="#"><img src="images/reply.png" alt="Reply" title="Reply"></a> <a href="#"><img src="images/delete_icon.png" alt="Delete" title="Delete" /></a></td>
+          </tr>
+        </table>
+        <div class="clear"></div>
+      </div>
+    </div>
+    
+    <!-- page body --> 
+    
+  </div>
+</div>
+
+<!-- end end wrapper container --> 
+
+<!-- footer starts here -->
+
+<div id="copyright">
+  <div class="container">
+    <div class="row">
+      <div class="span12">&copy; 2013 Startup Meow. All Rights Reserved.</div>
+    </div>
+  </div>
+</div>
+
+<!-- footer ends here --> 
+
+<!-- bootstrap js files --> 
+
+<script src="http://code.jquery.com/jquery.js" type="text/jscript"></script> 
+<script src="js/bootstrap.min.js" type="text/jscript"></script>
+</body>
+</html>
